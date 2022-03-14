@@ -1,0 +1,393 @@
+.megadiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.modeLabel {
+  /*margin-top: 14px;*/
+  font-size: 22px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #be4848;
+}
+
+.headerBuy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3736C8;
+}
+
+.band {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30%;
+  margin-top: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.bottomsection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 95%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.headersearch {
+  width: 80%;
+  background-color: #725a5a;
+}
+
+.headerimage {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.leftimage {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.rightdescription {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  padding-left: 26px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.descriptionminitext {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #858585;
+}
+
+.createnftbutton {
+  height: 10%;
+  margin-top: 37px;
+}
+
+.maintitletext {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.datestext {
+  margin-top: 26px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.locationtext {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.nftbutton {
+  width: 200px;
+  height: 50px;
+  background-color: #854747;
+}
+
+.existingnft {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-top: 32px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ticketsdiv {
+  width: 100%;
+  height: 100%;
+}
+
+.existingnfttext {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.mainbottomsecton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-top: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.ticketheader {
+  margin-top: 43px;
+  margin-bottom: 5px;
+}
+
+.ticketheadertext {
+  margin-bottom: 15px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #929292;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.ticketviewer {
+  margin-bottom: 10px;
+}
+
+.ticket {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  background-color: #d3cbcb;
+}
+
+.ticket.buyer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.ticketcolorsidebar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.buybutton {
+  margin-top: 10px;
+
+}
+
+.ticketheaderdivthing {
+  width: 100%;
+  height: 20%;
+}
+
+.tickettokeniddiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tickettokenidtext {
+  font-size: 18px;
+  line-height: 18px;
+  font-style: italic;
+}
+
+.maintickettextdiv {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.saleprice {
+  margin-top: 14px;
+  font-size: 20px;
+}
+
+.nftlogodiv {
+  width: 100%;
+  height: 100%;
+}
+
+.headercontainerdiv {
+  width: 80%;
+  height: 100%;
+}
+
+.loader {
+  margin-top: 80px;
+}
+
+.loadingText {
+  text-decoration-color: red;
+}
+
+.red-toggle.react-toggle--checked .react-toggle-track {
+  background-color: red;
+}
+
+.blue-toggle.react-toggle--checked .react-toggle-track {
+  background-color: purple;
+}
+
+.togglerHeader {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5%;
+  margin-bottom: 22px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #D8D8D8;
+}
+
+.togglerContainerDiv {
+  width: 80%;
+  height: 100%;
+}
+
+.toggler {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+.mainmodaldiv {
+  width: 500px;
+  height: 800px;
+  background-color: #fff;
+}
+
+.body-2 {
+  background-color: #8d2b2b;
+}
+
+.titlediv {
+  height: 100%;
+}
+
+.titldeivdtest {
+  font-size: 30px;
+  line-height: 100%;
+  font-weight: 700;
+}
