@@ -41,7 +41,6 @@ function ModalQR({ticket, show, onModalClose}) {
 }
 
 function TicketSection ({eventName, tickets, onOpenQR}) {
-	console.log(eventName)
   const numMinted = tickets[1].totalMinted || 4
   const textForTicket = tickets[1].ticketName + " - (1 of " + numMinted + " minted)"
   const newTickets = [tickets[1]]
@@ -134,7 +133,6 @@ export default function BuyerCollectionView() {
 	    fetch("/getTokens")
 	      .then((res) => res.json())
 	      .then((data) => {
-	          console.log("Buyer: ", data.buyerTokens)
 	          setBuyerTokens(data.buyerTokens)
 	          setIsLoading(false)
 	        });    

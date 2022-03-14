@@ -67,7 +67,6 @@ function TicketsDiv({tickets, onBuyNFT}) {
       ticketsObj[ticket.ticketName] = [ticket]
     }
   })
-  console.log(ticketsObj)
 
   return (
     <div className="ticketsdiv">
@@ -98,8 +97,6 @@ function BuyerView({onToggleSwitch}) {
     fetch("/getTokens")
       .then((res) => res.json())
       .then((data) => {
-          console.log("Seller: ", data.sellerTokens)
-          console.log("Buyer: ", data.buyerTokens)
           setSellerTokens(data.sellerTokens)
           setBuyerTokens(data.buyerTokens)
           setIsLoading(false)

@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from './logo.svg';
-import './App.css';
 import SellerView from './SellerView';
 import BuyerView from './BuyerView';
 import BuyerCollectionView from './BuyerCollectionView';
